@@ -45,7 +45,7 @@ class QueryJs{
         return this
     }
     get(index){
-        if(typeof index === "number") return Array.isArray(this.#el)&&index<this.#el.length ? this.#el[index] : this.#el;
+        if(typeof index === "number") return Array.isArray(this.#el)&&(index-1)<this.#el.length ? this.#el[index-1] : this.#el;
         return this.#el;
     }
 }

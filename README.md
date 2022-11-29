@@ -1,4 +1,4 @@
-# Q.js a lightweight js library for DOM manipulation
+# Q.js a 1KB js library for DOM manipulation
 <div>
 <img src="./letter-q.png" style="width:100px;margin:auto"/>
   
